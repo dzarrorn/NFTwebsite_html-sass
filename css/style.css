@@ -20,8 +20,9 @@
   background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
 }
 
-.bg-darkblue {
-  background: linear-gradient(113.49deg, #984D38 -30.3%, #181E41 58.12%);
+ .bg-darkblue {
+  /*background: linear-gradient(113.49deg, #984D38 -30.3%, #181E41 58.12%); */
+  background: linear-gradient(to top, #0099ff 0%, #cc33ff 87%);
 }
 
 .bg-halfwhite {
@@ -61,7 +62,10 @@ html {
   scroll-padding-top: 10rem;
   font-size: 10px;
   color: white;
-  background: linear-gradient(113.49deg, #984D38 -30.3%, #181E41 58.12%);
+  /*background: linear-gradient(113.49deg, #731dc4 -30.3%, #211841 58.12%);*/
+  /*background: linear-gradient(113.49deg, #533483 -30.3%, #a1c298 58.12%);*/
+  /*background: linear-gradient(180deg, rgb(46, 73, 161) 0%, rgba(16,9,121,1) 35%, rgba(0,212,255,1) 100%);*/
+  background: linear-gradient(-90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
   font-family: "Poppins", sans-serif;
 }
 
@@ -3355,7 +3359,7 @@ h5 {
 }
 
 .btn:hover {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(68, 29, 29, 0.247);
 }
 
 .shadow {
@@ -3519,6 +3523,8 @@ header .container .logo {
   font-size: 2.5rem;
 }
 
+
+
 header .container .menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3587,7 +3593,7 @@ header .container .menu a {
 }
 
 header .container .menu a:hover {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 0.986);
 }
 
 #bar,
@@ -3598,7 +3604,7 @@ header .container .menu a:hover {
 
 #bar:hover,
 #wallet:hover {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgb(14, 1, 1);
 }
 
 @media screen and (max-width: 1024px) {
