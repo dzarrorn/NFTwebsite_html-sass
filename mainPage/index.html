@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- swiperjs cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+
+    <!-- google font link -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,400&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>NFTMarket</title>
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+
+  <body>
+    <!-- header section starts -->
+    <header class="header bg-white10">
+      <div class="container">
+        <img
+          src="img/NFT-removebg-preview.png"
+          alt="NftMarket"
+          width="280"
+          height="42"
+          style="vertical-align: middle; margin: 0px 50px"
+        />
+        <div class="menu">
+          <form action="" class="search-form">
+            <label for="search-box" class="fas fa-search"></label>
+            <input
+              type="search"
+              id="search-box"
+              placeholder="Search items and collections"
+            />
+          </form>
+          <a href="#collections">Collections</a>
+          <a href="#featured">Featured</a>
+          <a href="#faq">FAQ</a>
+          <div class="btn bg-purple wallet">Purchase</div>
+          <span class="material-symbols-outlined"> account_circle </span>
+        </div>
+
+        <div class="fas fa-wallet" id="wallet"></div>
+        <div class="fas fa-bars" id="bar"></div>
+      </div>
+    </header>
+    <!-- header section ends -->
+
+    <!-- home section starts -->
+    <section id="home" class="spacetop15 spacebottom10">
+      <div class="container">
+        <div class="row jc-between ai-center col-reverse-s">
+          <div class="col5 col6-md col12-s ta-center-s">
+            <h1 class="size5 bold spacebottom1">
+              Create, Sell & Collect Your Own Creative NFT
+            </h1>
+            <p class="size2 spacebottom3 halfwhite">
+              NFT is a new thing making billionaires in the virtual world.
+            </p>
+
+            <div
+              class="row col8 col9-md jc-between spacebottom4 jc-evenly-s col12-s"
+            >
+              <a href="#collections" class="btn bg-purple size2 white"
+                >Explore now</a
+              >
+              <a href="#banner" class="btn bg-white10 size2 white">Sell NFT</a>
+            </div>
+
+            <div class="row jc-between">
+              <div class="ta-center">
+                <p class="size3 bold">47k+</p>
+                <p class="size2 halfwhite">Artworks</p>
+              </div>
+              <div class="ta-center">
+                <p class="size3 bold">30k+</p>
+                <p class="size2 halfwhite">Artist</p>
+              </div>
+              <div class="ta-center">
+                <p class="size3 bold">99k+</p>
+                <p class="size2 halfwhite">Auctions</p>
+              </div>
+            </div>
+          </div>
+          <div class="col6 col12-s spacebottom3-s">
+            <img src="img/heroimage.png" alt="" class="img-responsive float" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- home section ends -->
+
+    <!-- partner section starts -->
+    <section class="spacer5 spacer0-xs">
+      <div class="container row jc-between jc-around-md">
+        <img src="img/binance.svg" alt="" class="height6 img-responsive-md" />
+        <img src="img/ethereum.svg" alt="" class="height6 img-responsive-md" />
+        <img
+          src="img/blockchain.svg"
+          alt=""
+          class="height6 img-responsive-md spacetop1-md"
+        />
+      </div>
+    </section>
+    <!-- partner section ends -->
+
+    <!-- about section starts -->
+    <section id="about" class="spacer10">
+      <div class="container">
+        <h1 class="bold size4 ta-center">About Us</h1>
+        <p class="spacebottom3 halfwhite size2 ta-center">
+          At NFTMarket, we believe that everyone should have the freedom to
+          earn,hold,spend,share<br />and give their NFTs -no matter who you are
+          or where you come from.
+        </p>
+        <div class="row ai-center jc-between flexcol-s">
+          <div class="col5 col10-s spacebottom2-s">
+            <img src="img2/p1.jpg" class="img-responsive" alt="" />
+          </div>
+          <div class="col6 col12-s ta-center-s">
+            <h3 class="size3 bold">Trending NFT</h3>
+            <p class="size2 spacetop1 spacebottom3 halfwhite">
+              Parin Heidari dropped new works on Friday and the market has been
+              alive and well ever since!
+              <br />
+              “I go through phases that are visually rich and complex before
+              removing what’s not substantive. It’s a maturation process that
+              can be painful as it consists of letting go, giving up. But, it’s
+              also very demanding as minimalism requests a certain level of
+              perfection. Every element must have its sense, its utility, its
+              intrinsic beauty.”
+            </p>
+            <a href="#collections" class="btn bg-purple size2 white"
+              >Show more</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about section ends -->
+
+    <!-- collections section starts -->
+    <section class="collections spacer10" id="collections">
+      <div class="container">
+        <h1 class="bold size4 ta-center">Collections</h1>
+        <p class="spacebottom3 halfwhite size2 ta-center">
+          Watch collections you don’t own...yet.
+        </p>
+        <div class="row spacebottom3 filter-buttons">
+          <div class="col3 filter col6-xs spacebottom1-xs" data-filter="all">
+            All
+          </div>
+          <div class="col3 filter col6-xs spacebottom1-xs" data-filter="art">
+            Art
+          </div>
+          <div class="col3 filter col6-xs" data-filter="photograpy">
+            Photograpy
+          </div>
+          <div class="col3 filter col6-xs" data-filter="pattern">Pattern</div>
+        </div>
+        <div class="row box-card jc-evenly-md">
+          <div
+            class="col4 card collect bg-white10 col5-md col6-s"
+            data-item="art"
+          >
+            <img src="img2/p2.png" class="img-responsive" alt="" />
+            <div class="row jc-between spacetop2">
+              <div>
+                <p class="size2 halfwhite">@Alpha Rahen</p>
+                <h5 class="size2 bold">PsychoArt</h5>
+              </div>
+              <div>
+                <p class="current halfwhite">Current bid</p>
+                <h5 class="size2 bold">0.020ETH</h5>
+              </div>
+            </div>
+            <a class="bid size2 ta-center"> Place a bid </a>
+          </div>
+          <div
+            class="col4 card collect bg-white10 col5-md col6-s"
+            data-item="photograpy"
+          >
+            <img src="img/collection2.png" class="img-responsive" alt="" />
+            <div class="row jc-between spacetop2">
+              <div>
+                <p class="size2 halfwhite">@Mark Bay</p>
+                <h5 class="size2 bold">Struky</h5>
+              </div>
+              <div>
+                <p class="current halfwhite">Current bid</p>
+                <h5 class="size2 bold">0.005ETH</h5>
+              </div>
+            </div>
+            <a class="bid size2 ta-center"> Place a bid </a>
+          </div>
+          <div
+            class="col4 card collect bg-white10 col5-md col6-s"
+            data-item="pattern"
+          >
+            <img src="img/collection3.png" class="img-responsive" alt="" />
+            <div class="row jc-between spacetop2">
+              <div>
+                <p class="size2 halfwhite">@James Hall</p>
+                <h5 class="size2 bold">Peace</h5>
+              </div>
+              <div>
+                <p class="current halfwhite">Current bid</p>
+                <h5 class="size2 bold">0.009ETH</h5>
+              </div>
+            </div>
+            <a class="bid size2 ta-center"> Place a bid </a>
+          </div>
+
+          <div
+            class="col4 card collect bg-white10 col5-md col6-s"
+            data-item="art"
+          >
+            <img src="img2/giphy.gif" class="img-responsive" alt="" />
+            <div class="row jc-between spacetop2">
+              <div>
+                <p class="size2 halfwhite">@Rany Bell</p>
+                <h5 class="size2 bold">MonkeyLover</h5>
+              </div>
+              <div>
+                <p class="current halfwhite">Current bid</p>
+                <h5 class="size2 bold">0.090ETH</h5>
+              </div>
+            </div>
+            <a class="bid size2 ta-center"> Place a bid </a>
+          </div>
+          <div
+            class="col4 card collect bg-white10 col5-md col6-s"
+            data-item="photograpy"
+          >
+            <img src="img/collection5.png" class="img-responsive" alt="" />
+            <div class="row jc-between spacetop2">
+              <div>
+                <p class="size2 halfwhite">@Alib Mallik</p>
+                <h5 class="size2 bold">DarkSoul</h5>
+              </div>
+              <div>
+                <p class="current halfwhite">Current bid</p>
+                <h5 class="size2 bold">0.056ETH</h5>
+              </div>
+            </div>
+            <a class="bid size2 ta-center"> Place a bid </a>
+          </div>
+          <div
+            class="col4 card collect bg-white10 col5-md col6-s"
+            data-item="pattern"
+          >
+            <img src="img/collection6.png" class="img-responsive" alt="" />
+            <div class="row jc-between spacetop2">
+              <div>
+                <p class="size2 halfwhite">@Angelia</p>
+                <h5 class="size2 bold">An Angel</h5>
+              </div>
+              <div>
+                <p class="current halfwhite">Current bid</p>
+                <h5 class="size2 bold">0.005ETH</h5>
+              </div>
+            </div>
+            <a class="bid size2 ta-center"> Place a bid </a>
+          </div>
+
+          <div
+            class="col4 card collect bg-white10 col5-md col6-s"
+            data-item="art"
+          >
+            <img src="img2/p4.jpg" class="img-responsive" alt="" />
+            <div class="row jc-between spacetop2">
+              <div>
+                <p class="size2 halfwhite">@Brew Holland</p>
+                <h5 class="size2 bold">Insomia</h5>
+              </div>
+              <div>
+                <p class="current halfwhite">Current bid</p>
+                <h5 class="size2 bold">0.012ETH</h5>
+              </div>
+            </div>
+            <a class="bid size2 ta-center"> Place a bid </a>
+          </div>
+          <div
+            class="col4 card collect bg-white10 col5-md col6-s"
+            data-item="photograpy"
+          >
+            <img src="img/collection8.png" class="img-responsive" alt="" />
+            <div class="row jc-between spacetop2">
+              <div>
+                <p class="size2 halfwhite">@Jayes</p>
+                <h5 class="size2 bold">Crosswalk</h5>
+              </div>
+              <div>
+                <p class="current halfwhite">Current bid</p>
+                <h5 class="size2 bold">0.032ETH</h5>
+              </div>
+            </div>
+            <a class="bid size2 ta-center"> Place a bid </a>
+          </div>
+          <div
+            class="col4 card collect bg-white10 col5-md col6-s"
+            data-item="pattern"
+          >
+            <img src="img/collection9.png" class="img-responsive" alt="" />
+            <div class="row jc-between spacetop2">
+              <div>
+                <p class="size2 halfwhite">@Patrick Howard</p>
+                <h5 class="size2 bold">Magical</h5>
+              </div>
+              <div>
+                <p class="current halfwhite">Current bid</p>
+                <h5 class="size2 bold">0.002ETH</h5>
+              </div>
+            </div>
+            <a class="bid size2 ta-center"> Place a bid </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- collections section ends -->
+
+    <!-- featured section starts -->
+    <section class="featured spacer10" id="featured">
+      <div class="container">
+        <h1 class="bold size4 ta-center">Featured Artworks</h1>
+        <p class="spacebottom3 halfwhite size2 ta-center">
+          We've collaborated with high-profile organizations and celebrities<br />
+          and generated millions of dollars in revenue in the process.
+        </p>
+        <div class="swiper card-slider row">
+          <div class="swiper-wrapper">
+            <div class="col4 col5-md col7-s swiper-slide">
+              <div class="card bg-white10">
+                <img src="img2/giphy2.gif" class="img-responsive" alt="" />
+                <div class="row jc-between spacetop2">
+                  <div>
+                    <p class="size2 halfwhite">@Alex Andrew</p>
+                    <h5 class="size2 bold">Dreamer</h5>
+                  </div>
+                  <div>
+                    <p class="current halfwhite">Current bid</p>
+                    <h5 class="size2 bold">0.037ETH</h5>
+                  </div>
+                </div>
+                <a class="bid size2 ta-center"> Place a bid </a>
+              </div>
+            </div>
+            <div class="col4 col5-md col7-s swiper-slide">
+              <div class="card bg-white10">
+                <img src="img2/p5.jpg" class="img-responsive" alt="" />
+                <div class="row jc-between spacetop2">
+                  <div>
+                    <p class="size2 halfwhite">@Bob Ally</p>
+                    <h5 class="size2 bold">Renga</h5>
+                  </div>
+                  <div>
+                    <p class="current halfwhite">Current bid</p>
+                    <h5 class="size2 bold">0.056ETH</h5>
+                  </div>
+                </div>
+                <a class="bid size2 ta-center"> Place a bid </a>
+              </div>
+            </div>
+            <div class="col4 col5-md col7-s swiper-slide">
+              <div class="card bg-white10">
+                <img src="img2/gigpy3.gif" class="img-responsive" alt="" />
+                <div class="row jc-between spacetop2">
+                  <div>
+                    <p class="size2 halfwhite">@Gray Mathew</p>
+                    <h5 class="size2 bold">Shakurim</h5>
+                  </div>
+                  <div>
+                    <p class="current halfwhite">Current bid</p>
+                    <h5 class="size2 bold">0.009ETH</h5>
+                  </div>
+                </div>
+                <a class="bid size2 ta-center"> Place a bid </a>
+              </div>
+            </div>
+            <div class="col4 col5-md col7-s swiper-slide">
+              <div class="card bg-white10">
+                <img src="img2/p6.jpg" class="img-responsive" alt="" />
+                <div class="row jc-between spacetop2">
+                  <div>
+                    <p class="size2 halfwhite">@Dave Collin</p>
+                    <h5 class="size2 bold">OmgPerky</h5>
+                  </div>
+                  <div>
+                    <p class="current halfwhite">Current bid</p>
+                    <h5 class="size2 bold">0.005ETH</h5>
+                  </div>
+                </div>
+                <a class="bid size2 ta-center"> Place a bid </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- featured section ends -->
+
+    <!-- creator section starts -->
+    <section class="creator spacer10" id="featured">
+      <div class="container">
+        <h1 class="bold size4 ta-center">Top Creator</h1>
+        <p class="spacebottom3 halfwhite size2 ta-center">
+          Independent creators making their way in the NFT world.
+        </p>
+        <div class="swiper row creator-slider">
+          <div class="swiper-wrapper">
+            <div class="col4 col5-md col7-s swiper-slide">
+              <div class="card-creator bg-white10 ta-center">
+                <img src="img/creator1.png" class="img-responsive" alt="" />
+                <img src="img/photo1.png" class="photo" alt="" />
+                <h5 class="spacer1 size2 bold">Angelia</h5>
+                <p class="spacebottom2 halfwhite desc">
+                  “Weighty feelings that cannot be expressed in any way other
+                  than through art; a form of therapy.”
+                </p>
+                <button class="follow ta-center bg-purple white">
+                  + Follow
+                </button>
+              </div>
+            </div>
+            <div class="col4 col5-md col7-s swiper-slide">
+              <div class="card-creator bg-white10 ta-center">
+                <img src="img/creator2.png" class="img-responsive" alt="" />
+                <img src="img/photo2.png" class="photo" alt="" />
+                <h5 class="spacer1 size2 bold">Dave Collin</h5>
+                <p class="spacebottom2 halfwhite desc">
+                  I am a Brazilian American Artist who focuses on digital
+                  animation and illustration. I strive to make fun, eye-catching
+                  content that dazzles and inspires. elit.
+                </p>
+                <button class="follow ta-center bg-purple white">
+                  + Follow
+                </button>
+              </div>
+            </div>
+            <div class="col4 col5-md col7-s swiper-slide">
+              <div class="card-creator bg-white10 ta-center">
+                <img src="img/creator3.png" class="img-responsive" alt="" />
+                <img src="img/photo3.png" class="photo" alt="" />
+                <h5 class="spacer1 size2 bold">Jayes</h5>
+                <p class="spacebottom2 halfwhite desc">
+                  I love the bizarre, and fun quirkiness of life that shines
+                  through my work. I find such beauty in movement, and it is
+                  this fascination with movement that drives my work in
+                  animation and drives me to reach others with my vision.
+                </p>
+                <button class="follow ta-center bg-purple white">
+                  + Follow
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- creator section ends -->
+
+    <!-- FAQ section starts -->
+    <section class="spacer10" id="faq">
+      <div class="container">
+        <h1 class="bold size4 ta-center">Frequently Asked<br />Question</h1>
+        <p class="spacebottom3 halfwhite size2 ta-center">
+          Learn answers to frequent questions on NFTMarket
+        </p>
+        <div class="row jc-between">
+          <div class="box-faq col6 col12-s">
+            <div class="box spacebottom5">
+              <div class="title row jc-between">
+                <h3 class="size2 halfwhite">How can I contact NFTMarket?</h3>
+                <i class="fas fa-angle-down size2 halfwhite"></i>
+              </div>
+              <p class="answer size2 spacetop1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptates ratione ea officiis ad quam blanditiis, dignissimos
+                adipisci suscipit nobis temporibus molestias fugiat quas
+                possimus assumenda quod quae modi dolorem sed.
+              </p>
+            </div>
+            <div class="box spacebottom5">
+              <div class="title row jc-between">
+                <h3 class="size2 halfwhite">
+                  How to connect my social account to my collection?
+                </h3>
+                <i class="fas fa-angle-down size2 halfwhite"></i>
+              </div>
+              <p class="answer size2 spacetop1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptates ratione ea officiis ad quam blanditiis, dignissimos
+                adipisci suscipit nobis temporibus molestias fugiat quas
+                possimus assumenda quod quae modi dolorem sed.
+              </p>
+            </div>
+            <div class="box spacebottom5">
+              <div class="title row jc-between">
+                <h3 class="size2 halfwhite">How do I delete an NFT?</h3>
+                <i class="fas fa-angle-down size2 halfwhite"></i>
+              </div>
+              <p class="answer size2 spacetop1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptates ratione ea officiis ad quam blanditiis, dignissimos
+                adipisci suscipit nobis temporibus molestias fugiat quas
+                possimus assumenda quod quae modi dolorem sed.
+              </p>
+            </div>
+          </div>
+          <div class="box-faq col6 col12-s">
+            <div class="box spacebottom5">
+              <div class="title row jc-between">
+                <h3 class="size2 halfwhite">
+                  How can I find my NFT sales record?
+                </h3>
+                <i class="fas fa-angle-down size2 halfwhite"></i>
+              </div>
+              <p class="answer size2 spacetop1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptates ratione ea officiis ad quam blanditiis, dignissimos
+                adipisci suscipit nobis temporibus molestias fugiat quas
+                possimus assumenda quod quae modi dolorem sed.
+              </p>
+            </div>
+            <div class="box spacebottom5">
+              <div class="title row jc-between">
+                <h3 class="size2 halfwhite">What is NFTMarket?</h3>
+                <i class="fas fa-angle-down size2 halfwhite"></i>
+              </div>
+              <p class="answer size2 spacetop1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptates ratione ea officiis ad quam blanditiis, dignissimos
+                adipisci suscipit nobis temporibus molestias fugiat quas
+                possimus assumenda quod quae modi dolorem sed.
+              </p>
+            </div>
+            <div class="box spacebottom5">
+              <div class="title row jc-between">
+                <h3 class="size2 halfwhite">How to upload my work ?</h3>
+                <i class="fas fa-angle-down size2 halfwhite"></i>
+              </div>
+              <p class="answer size2 spacetop1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptates ratione ea officiis ad quam blanditiis, dignissimos
+                adipisci suscipit nobis temporibus molestias fugiat quas
+                possimus assumenda quod quae modi dolorem sed.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FAQ section ends -->
+
+    <!-- banner section starts -->
+    <section class="spacer10" id="banner">
+      <div class="container spacer5 bg-purple ta-center">
+        <h1 class="size5 bold spacebottom2 size4-xs">
+          Get ready to collect<br />NFTs
+        </h1>
+        <a class="btn bg-halfwhite size2 started">Get started</a>
+      </div>
+    </section>
+    <!-- banner section ends -->
+
+    <!-- footer section starts -->
+    <footer class="spacer10">
+      <div class="container row jc-between flexcol-s ta-center-s">
+        <div class="row flexcol spacebottom3-s">
+          <img
+            src="img/NFT-removebg-preview.png"
+            alt="NftMarket"
+            width="280"
+            height="42"
+            style="vertical-align: middle; margin: 0px 50px"
+          />
+          <p class="size2 halfwhite spacetop2">
+            The world’s largest digital marketplace for<br />
+            non-fungible tokens (NFTs). Buy, sell, and<br />
+            discover exclusive digital items.
+          </p>
+        </div>
+        <div class="row flexcol spacebottom3-s">
+          <a href="#about" class="bold size2 white">About</a>
+          <a href="#" class="size2 halfwhite spacetop2">Product</a>
+          <a href="#" class="size2 halfwhite spacetop2">Resource</a>
+          <a href="#" class="size2 halfwhite spacetop2">Term & Condition</a>
+          <a href="#" class="size2 halfwhite spacetop2">FAQ</a>
+        </div>
+        <div class="row flexcol spacebottom3-s">
+          <a href="#" class="bold size2 white">Company</a>
+          <a href="#" class="size2 halfwhite spacetop2">Our Team</a>
+          <a href="#" class="size2 halfwhite spacetop2">Partners</a>
+          <a href="#" class="size2 halfwhite spacetop2">Privacy & Policy</a>
+          <a href="#" class="size2 halfwhite spacetop2">Features</a>
+        </div>
+        <div class="row flexcol spacebottom3-s">
+          <h5 class="bold size2">Contact</h5>
+          <a href="#" class="size2 halfwhite spacetop2">+012 9856210</a>
+          <a href="#" class="size2 halfwhite spacetop2">nftmarket@gmail.com</a>
+          <div class="row jc-between spacetop2 jc-evenly-s">
+            <a href="#" class="fab fa-youtube size2 halfwhite spacetop2"></a>
+            <a href="#" class="fab fa-discord size2 halfwhite spacetop2"></a>
+            <a href="#" class="fab fa-instagram size2 halfwhite spacetop2"></a>
+          </div>
+        </div>
+      </div>
+      <p class="size2 halfwhite spacetop5 ta-center">
+        Created by <span class="white bold">G-116</span> | All Right Reserved!
+      </p>
+    </footer>
+    <!-- footer section ends -->
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- custom js file link -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
